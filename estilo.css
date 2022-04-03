@@ -1,0 +1,326 @@
+
+html {
+
+    box-sizing: border-box;
+    
+    }
+    
+    *, *:before, *:after {
+    
+    box-sizing: inherit;
+    
+    }
+
+.titulo {
+
+    width: 400;
+    display: inline-block; 
+    padding: 15px; 
+    margin: 10px;
+    color: black;
+background:#778899;
+border-style: inset;
+border-width: 10px;
+border-color: #2F4F4F;
+}
+
+
+body{
+
+background: url(/imagenes/daniel-buhat-G64AisSnmbc-unsplash.jpg);
+font-size: sans-serif;
+}
+
+header{
+
+background-color: rgba(20, 20, 102, 0.76) ;
+height: 80px;
+width: 100;
+margin: -9px;
+top: 0;
+left: 0;
+
+}
+
+.nav{
+
+display: -webkit-box;
+
+display: -ms-flexbox;
+
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+max-width: 700px;
+
+}
+
+.nav-link {
+
+color: aliceblue;
+text-decoration: none;
+
+}
+
+.logo {
+
+font-size: 30px;
+font-weight: bold;
+padding:0 40px ;
+line-height:80px;
+
+}
+
+.nav-menu{
+
+display: -webkit-box;
+
+display: -ms-flexbox;
+
+display: flex;
+margin-right: 40px;
+list-style: none;
+}
+
+.nav-menu-item {
+
+font-size: 18px;
+margin: 0 10px;
+line-height: 50px;
+text-transform: uppercase;
+width: -webkit-max-content;
+width: -moz-max-content;
+width: max-content;
+
+}
+
+.nav-menu-link{
+
+padding: 8px 12px;
+border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+
+background-color: #5F9EA0;
+-webkit-transition: 0.5 s;
+-o-transition: 0.5 s;
+transition: 0.5 s;
+
+}
+
+.nav-toggle{
+
+color: rgba(219, 219, 219, 0.76) ;
+background: none;
+border: none;
+font-size: 30px;
+margin-left: 100px;
+line-height: 60px;
+display: none;
+cursor: pointer;
+}
+
+.lego {
+
+    color: rgba(219, 219, 219, 0.76) ;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 -05px;
+    line-height: 85px;
+
+
+
+}
+
+.locont{
+    color: rgba(219, 219, 219, 0.76) ;
+    background: none;
+    border: none;
+    font-size: 22px;
+    padding: 0 -05px;
+    line-height: 50px;
+
+
+}
+
+.bino{
+
+    color: rgba(219, 219, 219, 0.76) ;
+    background: none;
+    border: none;
+    font-size: 22px;
+    padding: 0 -05px;
+    line-height: 50px;
+
+
+
+}
+
+.inilo{
+
+    color: rgba(219, 219, 219, 0.76) ;
+    background: none;
+    border: none;
+    font-size: 22px;
+    padding: 0 -05px;
+    line-height: 50px;
+
+
+
+
+}
+
+header{
+
+    background-color: rgba(20, 20, 102, 0.76) ;
+
+}
+
+
+@media all and (max-width:550px) {
+
+
+    .p1 {
+    
+        width: 300px;
+
+    }
+
+.logo{
+
+font-size: 25px;
+padding: 0 20px;
+line-height: 80px;
+
+}
+
+
+    .img1{
+
+   
+    width: 400px;
+
+    -webkit-box-shadow: 8px 10px 10px #5F9EA0;
+
+            box-shadow: 8px 10px 10px #5F9EA0;
+        
+        }
+        
+      
+        .nav-menu{
+        
+       flex-direction: column;
+        margin: 0;
+        list-style: none;
+        background-color: rgba(46, 46, 59, 0.76);
+        position: fixed;
+        left: 0;
+        top:70px;
+        width:100%;
+        align-items: center;
+        padding:20px 0;
+        height:  calc(100% -60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+        }
+        
+        .nav-menu-item {
+        
+        font-size: 18px;
+        margin: 0 10px;
+        line-height: 70px;
+        text-transform: uppercase;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        
+        }
+        
+        
+        .nav-menu-link:hover {
+        
+        background-color: none;
+        -webkit-transition: 0.5 s;
+        -o-transition: 0.5 s;
+        transition: 0.5 s;
+        
+        }
+        
+        .nav-toggle{
+        
+        display: block;
+      margin-left: -150px;
+      margin-right: 5px;
+      margin-top: -15px;
+      line-height: 105px;
+        
+        }
+
+.nav-menu_visible{
+
+
+left: 0;
+
+}
+
+
+
+        
+        .lego {
+        
+            color: rgba(219, 219, 219, 0.76) ;
+            background: none;
+            border: none;
+            font-size: 30px;
+            padding: 0 -05px;
+            line-height: 85px;
+            margin-right: 275px;
+        
+        
+        
+        }
+        
+        .locont{
+            color: rgba(219, 219, 219, 0.76) ;
+            background: none;
+            border: none;
+            font-size: 22px;
+            padding: 0 -05px;
+            line-height: 50px;
+        
+        
+        }
+        
+        .bino{
+        
+            color: rgba(219, 219, 219, 0.76) ;
+            background: none;
+            border: none;
+            font-size: 22px;
+            padding: 0 -05px;
+            line-height: 50px;
+        
+        
+        
+        }
+        
+        .inilo{
+        
+            color: rgba(219, 219, 219, 0.76) ;
+            background: none;
+            border: none;
+            font-size: 22px;
+            padding: 0 -05px;
+            line-height: 50px;
+        
+        
+        
+        
+        }
+
+}
+
